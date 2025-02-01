@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Developer Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .profile {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .name {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .bio {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        .companies {
+            margin-top: 30px;
+        }
+
+        .companies img {
+            height: 40px;
+            margin-right: 15px;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+
+        .companies img:hover {
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+        <div class="header">
+            <!-- Inline SVG Avatar -->
+            <div class="avatar">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" fill="#007ACC" stroke="#005A9E" stroke-width="2" />
+                    <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="40" font-family="Arial"
+                        dy=".3em">D</text>
+                </svg>
+            </div>
+            <div class="details">
+                <h1 class="name">Dev Imaginary</h1>
+                <p class="bio">Passionate software developer with experience in building robust applications. Always
+                    exploring new technologies and creative solutions.</p>
+            </div>
+        </div>
+
+        <div class="companies">
+            <h2>Companies I've Worked With</h2>
+            <!-- Random company logos from Wikipedia -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo">
+        </div>
+    </div>
+</body>
+
+</html>
+<section class="projects">
+    <h2>Imaginary Projects</h2>
+    <div class="project">
+        <h3>Project Nebula</h3>
+        <p>A futuristic web application simulating galaxy exploration with real-time data visualization and interactive
+            3D models.</p>
+    </div>
+    <div class="project">
+        <h3>CodeGrid</h3>
+        <p>An AI-driven collaborative coding environment that assists developers with real-time code reviews and smart
+            suggestions.</p>
+    </div>
+    <div class="project">
+        <h3>Virtual Vault</h3>
+        <p>A secure, blockchain-powered cloud storage solution that ensures data integrity and privacy for digital
+            assets.</p>
+    </div>
+</section>
